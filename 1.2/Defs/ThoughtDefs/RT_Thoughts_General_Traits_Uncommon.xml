@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>MoodOffsetRTEasilyAmused</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>RT_EasilyAmused</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Amused</label>
+        <description>Oh wow, would you look at that!</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetRTConstantlyBemused</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>RT_ConstantlyBemused</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Bemused</label>
+        <description>Oh man... Can't I get a break?!</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

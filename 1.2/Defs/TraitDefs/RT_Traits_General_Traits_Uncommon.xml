@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TraitDef>
+    <defName>RT_Coordinated</defName>
+    <commonality>0.75</commonality>
+    <degreeDatas>
+      <li>
+        <label>Coordinated</label>
+        <description>[PAWN_nameDef] has good reaction time and finds physical activities less stressful than [PAWN_possessive] peers.</description>
+        <statOffsets>
+          <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+          <MeleeHitChance>2</MeleeHitChance>
+          <MeleeDodgeChance>2</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Clumsy</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Clumsy</defName>
+    <commonality>0.75</commonality>
+    <degreeDatas>
+      <li>
+        <label>Clumsy</label>
+        <description>[PAWN_nameDef] is easily distracted and often mess up when it comes to physical activities.</description>
+        <statOffsets>
+          <ShootingAccuracyPawn>-2</ShootingAccuracyPawn>
+          <MeleeHitChance>-2</MeleeHitChance>
+          <MeleeDodgeChance>-2</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Coordinated</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Hardy</defName>
+    <commonality>0.75</commonality>
+    <degreeDatas>
+      <li>
+        <label>Hardy</label>
+        <description>[PAWN_nameDef] is what people refer to as a 'stronk boi'.</description>
+        <statOffsets>
+          <IncomingDamageFactor>-0.10</IncomingDamageFactor>
+          <ImmunityGainSpeed>0.10</ImmunityGainSpeed>
+          <ToxicSensitivity>-0.10</ToxicSensitivity>
+          <ComfyTemperatureMax>1</ComfyTemperatureMax>
+          <ComfyTemperatureMin>-1</ComfyTemperatureMin>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Feeble</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Feeble</defName>
+    <commonality>0.75</commonality>
+    <degreeDatas>
+      <li>
+        <label>Feeble</label>
+        <description>[PAWN_nameDef] is so fragile, it doesn't take much to take [PAWN_objective] out of action.</description>
+        <statOffsets>
+          <IncomingDamageFactor>0.10</IncomingDamageFactor>
+          <ImmunityGainSpeed>-0.10</ImmunityGainSpeed>
+          <ToxicSensitivity>0.10</ToxicSensitivity>
+          <ComfyTemperatureMax>-1</ComfyTemperatureMax>
+          <ComfyTemperatureMin>1</ComfyTemperatureMin>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Hardy</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_EasilyAmused</defName>
+    <commonality>0.75</commonality>
+    <degreeDatas>
+      <li>
+        <label>Easily Amused</label>
+        <description>Whether by sheer optimism or a force of personality, [PAWN_nameDef] always manages to see the bright side of life.</description>
+        <skillGains>
+          <li><key>Artistic</key><value>3</value></li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_ConstantlyBemused</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_ConstantlyBemused</defName>
+    <commonality>0.75</commonality>
+    <degreeDatas>
+      <li>
+        <label>Constantly Bemused</label>
+        <description>Life to [PAWN_nameDef] is an endless, boring joke that [PAWN_pronoun] just can't get away from.</description>
+        <skillGains>
+          <li><key>Artistic</key><value>-3</value></li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_EasilyAmused</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Inquisitive</defName>
+    <commonality>0.75</commonality>
+    <degreeDatas>
+      <li>
+        <label>Inquisitive</label>
+        <description>[PAWN_nameDef] has an interest in understanding the workings of the world, and is able to apply [PAWN_possessive] knowledge in daily life.</description>
+        <statOffsets>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+        </statOffsets>
+        <skillGains>
+          <li><key>Intellectual</key><value>4</value></li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Ignorant</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Ignorant</defName>
+    <commonality>0.75</commonality>
+    <degreeDatas>
+      <li>
+        <label>Ignorant</label>
+        <description>Gaps in [PAWN_nameDef]'s education and general lack of curiosity makes life often stressful for [PAWN_objective].</description>
+        <statOffsets>
+          <MentalBreakThreshold>0.05</MentalBreakThreshold>
+        </statOffsets>
+        <skillGains>
+          <li><key>Intellectual</key><value>-4</value></li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Inquisitive</li>
+    </conflictingTraits>
+  </TraitDef>
+
+</Defs>

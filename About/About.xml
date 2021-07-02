@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>RimTraits - General Traits</name>
+	<author>Sierra</author>
+	<packageId>Sierra.RTGT</packageId>
+	<url></url>
+	<supportedVersions>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<description>
+[h1]Supported Versions:[/h1]
+[b]Rimworld 1.1[/b]
+[b]Rimworld 1.2[/b]
+
+
+[h1]Get [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2244594116]RimTraits - Vanilla Trait Colours[/url] to change your Trait Colours to match this mod![/h1]
+
+
+This mod adds 44 traits defining a pawn's attributes, some are mutually exclusive to each other with increasing rarity for the higher tier traits.
+
+This mod aims to add more minor traits that give each pawn a bit more uniqueness.
+
+
+[b]Features:[/b]
+[list]
+[*]44 Traits
+[/list]
+
+
+[b]Recommended Mods:[/b]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890]RimFantasy - Gemstones[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890]RimFantasy - Temperature Pylons[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1916352291]RimTraits - Medieval Talents[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2244594116]RimTraits - Vanilla Trait Colours[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1508292711][KV] More Trait Slots - 1.2[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1508850027]RimHUD[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1855885448]Guard For Me[/url]
+[/list]
+
+
+[b]Mod Compatibility:[/b]
+[list]
+[*]No Known Issues
+[*]Supports [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2451324814][SYR] Trait Value[/url]
+[/list]
+
+
+[b]Balance:[/b]
+Balance feedbacks are appreciated, suggestions will be considered as long as no C# is involved.
+
+
+[url=https://discord.gg/rimworld]Click here to join us on the Community Discord![/url]
+
+
+[h1]Credits:[/h1]
+[list]
+[*]Ogliss for helping me fix red error spam associated with 0 commonality to ensure smooth(er) defName transition.
+[*]SarahLambar for assistance in testing v1.12.
+[/list]
+
+
+[h1]Recent Changes:[/h1]
+[b]v1.13:[/b]
+[list]
+[*]WIP
+[/list]
+
+	</description>
+</ModMetaData>
