@@ -18,7 +18,7 @@ Balance feedbacks are appreciated, suggestions will be considered as long as no 
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0003/RimTraits---General-Traits/releases/tag/v1.12)
+- [Current Version](https://github.com/Sierra0003/RimTraits---General-Traits/releases/tag/v1.14)
 - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2206957172)
 - [GitHub](https://github.com/Sierra0003/RimTraits---General-Traits)
 
