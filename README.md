@@ -25,7 +25,7 @@ Balance feedbacks are appreciated, suggestions will be considered as long as no 
 ### Credits
 
 Ogliss for helping me fix red error spam associated with 0 commonality to ensure smooth(er) defName transition.
-SarahLambar for assistance in testing Update 12.
+SarahLambar for assistance in testing v1.12.
 
 ### Recent Changes
 
