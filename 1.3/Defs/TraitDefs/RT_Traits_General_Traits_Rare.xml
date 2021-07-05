@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TraitDef>
+    <defName>RT_Gifted</defName>
+    <commonality>0.50</commonality>
+    <degreeDatas>
+      <li>
+        <label>Gifted</label>
+        <description>[PAWN_nameDef] is naturally talented, [PAWN_pronoun] gets a headstart before everyone else.</description>
+        <skillGains>
+          <li><key>Shooting</key><value>4</value></li>
+          <li><key>Melee</key><value>4</value></li>
+          <li><key>Construction</key><value>4</value></li>
+          <li><key>Mining</key><value>4</value></li>
+          <li><key>Cooking</key><value>4</value></li>
+          <li><key>Plants</key><value>4</value></li>
+          <li><key>Animals</key><value>4</value></li>
+          <li><key>Crafting</key><value>4</value></li>
+          <li><key>Artistic</key><value>4</value></li>
+          <li><key>Medicine</key><value>4</value></li>
+          <li><key>Social</key><value>4</value></li>
+          <li><key>Intellectual</key><value>4</value></li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Incompetent</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Incompetent</defName>
+    <commonality>0.50</commonality>
+    <degreeDatas>
+      <li>
+        <label>Incompetent</label>
+        <description>[PAWN_nameDef] is someone everyone loves to hate.</description>
+        <skillGains>
+          <li><key>Shooting</key><value>-4</value></li>
+          <li><key>Melee</key><value>-4</value></li>
+          <li><key>Construction</key><value>-4</value></li>
+          <li><key>Mining</key><value>-4</value></li>
+          <li><key>Cooking</key><value>-4</value></li>
+          <li><key>Plants</key><value>-4</value></li>
+          <li><key>Animals</key><value>-4</value></li>
+          <li><key>Crafting</key><value>-4</value></li>
+          <li><key>Artistic</key><value>-4</value></li>
+          <li><key>Medicine</key><value>-4</value></li>
+          <li><key>Social</key><value>-4</value></li>
+          <li><key>Intellectual</key><value>-4</value></li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Gifted</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_PatientCook</defName>
+    <commonality>0.50</commonality>
+    <degreeDatas>
+      <li>
+        <label>Patient Cook</label>
+        <description>[PAWN_nameDef] takes great care in the preparation of food, [PAWN_pronoun] never skip a step just to have an early meal.</description>
+        <statOffsets>
+          <CookSpeed>-0.75</CookSpeed>
+          <FoodPoisonChance>-0.10</FoodPoisonChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_ImpatientCook</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_ImpatientCook</defName>
+    <commonality>0.50</commonality>
+    <degreeDatas>
+      <li>
+        <label>Impatient Cook</label>
+        <description>[PAWN_nameDef] couldn't care less about following the recipes as long as [PAWN_pronoun] can get food into [PAWN_possessive] mouth in record time.</description>
+        <statOffsets>
+          <CookSpeed>0.75</CookSpeed>
+          <FoodPoisonChance>0.10</FoodPoisonChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_PatientCook</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Healthy</defName>
+    <commonality>0.50</commonality>
+    <degreeDatas>
+      <li>
+        <label>Healthy</label>
+        <description>[PAWN_nameDef] lives a healthy lifestyle, and wakes up feeling energetic and cheerful.</description>
+        <statOffsets>
+          <RestRateMultiplier>0.1</RestRateMultiplier>
+          <ImmunityGainSpeed>0.1</ImmunityGainSpeed>
+          <ToxicSensitivity>-0.05</ToxicSensitivity>
+          <ComfyTemperatureMax>1</ComfyTemperatureMax>
+          <ComfyTemperatureMin>-1</ComfyTemperatureMin>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_ChronicallyIll</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_ChronicallyIll</defName>
+    <commonality>0.50</commonality>
+    <degreeDatas>
+      <li>
+        <label>Chronically Ill</label>
+        <description>[PAWN_nameDef] gets ill quite often, and seem to require more effort to get out of bed than the average person.</description>
+        <statOffsets>
+          <RestRateMultiplier>-0.1</RestRateMultiplier>
+          <ImmunityGainSpeed>-0.1</ImmunityGainSpeed>
+          <ToxicSensitivity>0.05</ToxicSensitivity>
+          <ComfyTemperatureMax>-1</ComfyTemperatureMax>
+          <ComfyTemperatureMin>1</ComfyTemperatureMin>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Healthy</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_TemperatureTolerant</defName>
+    <commonality>0.50</commonality>
+    <degreeDatas>
+      <li>
+        <label>Temperature Tolerant</label>
+        <description>[PAWN_nameDef] is comfortable in all seasons.</description>
+        <statOffsets>
+          <ComfyTemperatureMax>3</ComfyTemperatureMax>
+          <ComfyTemperatureMin>-3</ComfyTemperatureMin>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_TemperatureIntolerant</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_TemperatureIntolerant</defName>
+    <commonality>0.50</commonality>
+    <degreeDatas>
+      <li>
+        <label>Temperature Intolerant</label>
+        <description>[PAWN_nameDef] thinks that summer is way too hot, and winter is way too cold.</description>
+        <statOffsets>
+          <ComfyTemperatureMax>-3</ComfyTemperatureMax>
+          <ComfyTemperatureMin>3</ComfyTemperatureMin>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_TemperatureTolerant</li>
+    </conflictingTraits>
+  </TraitDef>
+
+</Defs>

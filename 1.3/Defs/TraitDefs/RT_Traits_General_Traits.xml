@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TraitDef>
+    <defName>RT_Nearsighted</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Nearsighted</label>
+        <description>[PAWN_nameDef] finds it difficult to focus on distant targets, and prefer to get up close and personal.</description>
+        <statOffsets>
+          <ShootingAccuracyPawn>-2</ShootingAccuracyPawn>
+          <AimingDelayFactor>0.15</AimingDelayFactor>
+          <MeleeHitChance>2</MeleeHitChance>
+          <MeleeDodgeChance>2</MeleeDodgeChance>
+        </statOffsets>
+        <skillGains>
+          <li><key>Shooting</key><value>-2</value></li>
+          <li><key>Melee</key><value>2</value></li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Farsighted</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Farsighted</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Farsighted</label>
+        <description>[PAWN_nameDef] could spot a target from nearly a hundred meters, yet still somehow walk into walls.</description>
+        <statOffsets>
+          <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+          <AimingDelayFactor>-0.15</AimingDelayFactor>
+          <MeleeHitChance>-2</MeleeHitChance>
+          <MeleeDodgeChance>-2</MeleeDodgeChance>
+        </statOffsets>
+        <skillGains>
+          <li><key>Shooting</key><value>2</value></li>
+          <li><key>Melee</key><value>-2</value></li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Nearsighted</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Athletic</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Athletic</label>
+        <description>[PAWN_nameDef]'s movements are smooth and graceful.</description>
+        <statOffsets>
+          <MeleeDodgeChance>2</MeleeDodgeChance>
+          <MoveSpeed>0.10</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Stiff</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Stiff</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Stiff</label>
+        <description>[PAWN_nameDef] is so rigid, it's almost like [PAWN_pronoun] is souless.</description>
+        <statOffsets>
+          <MeleeDodgeChance>-2</MeleeDodgeChance>
+          <MoveSpeed>-0.10</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Athletic</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_GoodHygiene</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Good Hygiene</label>
+        <description>[PAWN_nameDef] takes care of [PAWN_possessive] personal hygiene.</description>
+        <statOffsets>
+          <FoodPoisonChance>-0.10</FoodPoisonChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_PoorHygiene</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_PoorHygiene</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Poor Hygiene</label>
+        <description>[PAWN_nameDef] doesn't care about [PAWN_possessive] hygiene, and sometimes get sick from bad food.</description>
+        <statOffsets>
+          <FoodPoisonChance>0.10</FoodPoisonChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_GoodHygiene</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Persuasive</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Persuasive</label>
+        <description>[PAWN_nameDef] often gets [PAWN_possessive] way with things.</description>
+        <statOffsets>
+          <NegotiationAbility>0.25</NegotiationAbility>
+          <ArrestSuccessChance>0.25</ArrestSuccessChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Unconvincing</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Unconvincing</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Unconvincing</label>
+        <description>[PAWN_nameDef] has never won a debate in [PAWN_possessive] life.</description>
+        <statOffsets>
+          <NegotiationAbility>-0.25</NegotiationAbility>
+          <ArrestSuccessChance>-0.25</ArrestSuccessChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Persuasive</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Resilient</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Resilient</label>
+        <description>[PAWN_nameDef] has been in plenty of fights since [PAWN_pronoun] was a kid, and had built up a tolerance to injury and pain as a result.</description>
+        <statOffsets>
+          <IncomingDamageFactor>-0.10</IncomingDamageFactor>
+          <PainShockThreshold>0.05</PainShockThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Fragile</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Fragile</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Fragile</label>
+        <description>[PAWN_nameDef] lived a pampered life until now, and is unused to the brutal challenges present out in the Rim.</description>
+        <statOffsets>
+          <IncomingDamageFactor>0.10</IncomingDamageFactor>
+          <PainShockThreshold>-0.05</PainShockThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Resilient</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Energetic</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Energetic</label>
+        <description>[PAWN_nameDef] always tackle his tasks with great enthusism.</description>
+        <statOffsets>
+          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+          <MoveSpeed>0.15</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Sluggish</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Sluggish</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Sluggish</label>
+        <description>[PAWN_nameDef] is slow. Sooo... slooow...</description>
+        <statOffsets>
+          <WorkSpeedGlobal>-0.20</WorkSpeedGlobal>
+          <MoveSpeed>-0.15</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Energetic</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Restful</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Restful</label>
+        <description>[PAWN_nameDef] always sleep like a baby.</description>
+        <statOffsets>
+          <RestRateMultiplier>0.25</RestRateMultiplier>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Restless</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Restless</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Restless</label>
+        <description>[PAWN_nameDef] often has a difficult time falling asleep.</description>
+        <statOffsets>
+          <RestRateMultiplier>-0.25</RestRateMultiplier>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Restful</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Efficient</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Efficient</label>
+        <description>[PAWN_nameDef] is quite productive when it comes to work.</description>
+        <statOffsets>
+          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+          <GlobalLearningFactor>0.20</GlobalLearningFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Inefficient</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Inefficient</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Inefficient</label>
+        <description>[PAWN_nameDef] is somewhat of a bottleneck in the colony.</description>
+        <statOffsets>
+          <WorkSpeedGlobal>-0.20</WorkSpeedGlobal>
+          <GlobalLearningFactor>-0.20</GlobalLearningFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Efficient</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Valiant</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Valiant</label>
+        <description>[PAWN_nameDef] is brave, [PAWN_pronoun] would stand [PAWN_possessive] where others would scramble and run.</description>
+        <statOffsets>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+          <PainShockThreshold>0.05</PainShockThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Craven</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Craven</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Craven</label>
+        <description>When there's a fight, [PAWN_nameDef] is the first to run.</description>
+        <statOffsets>
+          <MentalBreakThreshold>0.05</MentalBreakThreshold>
+          <PainShockThreshold>-0.05</PainShockThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Valiant</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Rowdy</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Rowdy</label>
+        <description>[PAWN_nameDef] likes a good fight, [PAWN_pronoun] will sometimes start a fight just because [PAWN_pronoun] can.</description>
+        <statOffsets>
+          <MentalBreakThreshold>0.05</MentalBreakThreshold>
+        </statOffsets>
+        <socialFightChanceFactor>2</socialFightChanceFactor>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Composed</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Composed</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Composed</label>
+        <description>[PAWN_nameDef] is usually calm and collected.</description>
+        <statOffsets>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+        </statOffsets>
+        <socialFightChanceFactor>-2</socialFightChanceFactor>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Rowdy</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_HeatTolerant</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Heat Tolerant</label>
+        <description>[PAWN_nameDef] is more comfortable being in hot environment than his peers.</description>
+        <statOffsets>
+          <ComfyTemperatureMax>3</ComfyTemperatureMax>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_HeatIntolerant</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_HeatIntolerant</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Heat Intolerant</label>
+        <description>[PAWN_nameDef] does not like being in the heat.</description>
+        <statOffsets>
+          <ComfyTemperatureMax>-3</ComfyTemperatureMax>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_HeatTolerant</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_ColdTolerant</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Cold Tolerant</label>
+        <description>[PAWN_nameDef] is more comfortable being in cold environment than his peers.</description>
+        <statOffsets>
+          <ComfyTemperatureMin>-3</ComfyTemperatureMin>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_ColdIntolerant</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_ColdIntolerant</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Cold Intolerant</label>
+        <description>[PAWN_nameDef] does not like being in the cold.</description>
+        <statOffsets>
+          <ComfyTemperatureMin>3</ComfyTemperatureMin>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_ColdTolerant</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Muscular</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Muscular</label>
+        <description>[PAWN_nameDef] has a well built body, people around [PAWN_pronoun] find that rather attractive.</description>
+        <statOffsets>
+          <CarryingCapacity>5</CarryingCapacity>
+          <PawnBeauty>1</PawnBeauty>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Frail</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Frail</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Frail</label>
+        <description>[PAWN_nameDef] looks a bit fragile, but not in a lovable way.</description>
+        <statOffsets>
+          <CarryingCapacity>-5</CarryingCapacity>
+          <PawnBeauty>-1</PawnBeauty>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Muscular</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Abstinent</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Abstinent</label>
+        <description>[PAWN_nameDef] doesn't eat or drink much.</description>
+        <hungerRateFactor>0.75</hungerRateFactor>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Ravenous</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Ravenous</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Ravenous</label>
+        <description>[PAWN_nameDef] has a bottomless pit for a stomach.</description>
+        <hungerRateFactor>1.25</hungerRateFactor>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Abstinent</li>
+    </conflictingTraits>
+  </TraitDef>
+
+</Defs>
