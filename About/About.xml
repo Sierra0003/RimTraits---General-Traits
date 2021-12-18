@@ -15,7 +15,7 @@
 		<li>Ludeon.RimWorld.Ideology</li>
 	</loadAfter>
 	<description>
-[h1]Mod Version: v1.15.1[/h1]
+[h1]Mod Version: v1.15.2[/h1]
 
 
 [h1]Get [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2244594116]RimTraits - Vanilla Trait Colors[/url] to change your Trait Colours to match this mod![/h1]
@@ -34,11 +34,11 @@ This mod aims to add more minor traits that give each pawn a bit more uniqueness
 
 [b]Recommended Mods:[/b]
 [list]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890]RimFantasy - Gemstones[/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890]RimFantasy - Temperature Regulation[/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890]RimFantasy - Crystallic Lighting[/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890]RimFantasy - Arcane Batons[/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890]RimFantasy - Arcane Weapons[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2630669656]RimFantasy - Gemstones[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2630670287]RimFantasy - Temperature Regulation[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2632845986]RimFantasy - Crystallic Lighting[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2634323159]RimFantasy - Arcane Batons[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2651522590]RimFantasy - Arcane Weapons[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1916352291]RimTraits - Medieval Talents[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2244594116]RimTraits - Vanilla Trait Colours[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1508292711][KV] More Trait Slots - 1.2[/url]
@@ -72,14 +72,9 @@ Balance feedbacks are appreciated, suggestions will be considered as long as no 
 
 
 [h1]Latest Changes:[/h1]
-[b]v1.15[/b]
+[b]v1.15.2[/b]
 [list]
-[*][RimWorld 1.3] RimWorld 1.3 Ready.
-[/list]
-
-[b]v1.15.1[/b]
-[list]
-[*][Change] Demo Traits removed.
+[*][Fix] Added additional conflicting traits to prevent inappropriate trait combinations.
 [/list]
 	</description>
 </ModMetaData>

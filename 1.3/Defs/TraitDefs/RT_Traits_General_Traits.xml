@@ -170,6 +170,7 @@
     </degreeDatas>
     <conflictingTraits>
       <li>RT_Fragile</li>
+      <li>RT_Feeble</li>
     </conflictingTraits>
   </TraitDef>
 
@@ -188,6 +189,8 @@
     </degreeDatas>
     <conflictingTraits>
       <li>RT_Resilient</li>
+      <li>RT_Hardy</li>
+      <li>Tough</li>
     </conflictingTraits>
   </TraitDef>
 

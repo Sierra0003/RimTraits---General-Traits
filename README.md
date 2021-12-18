@@ -18,7 +18,7 @@ Balance feedbacks are appreciated, suggestions will be considered as long as no 
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0001/RimTraits---General-Traits/releases/tag/v1.15.1)
+- [Current Version](https://github.com/Sierra0001/RimTraits---General-Traits/releases/tag/v1.15.2)
 - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2206957172)
 - [GitHub](https://github.com/Sierra0001/RimTraits---General-Traits)
 
@@ -29,5 +29,4 @@ SarahLambar for assistance in testing v1.12.
 
 ### Recent Changes
 
-- [RimWorld 1.3] RimWorld 1.3 Ready. (v1.15)
-- [Change] Demo Traits removed. (v1.15.1)
+- [Fix] Added additional conflicting traits to prevent inappropriate trait combinations.
