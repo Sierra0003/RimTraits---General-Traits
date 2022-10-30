@@ -49,7 +49,9 @@
         <statOffsets>
           <IncomingDamageFactor>-0.10</IncomingDamageFactor>
           <ImmunityGainSpeed>0.10</ImmunityGainSpeed>
-          <ToxicSensitivity>-0.10</ToxicSensitivity>
+          <!--<ToxicSensitivity>-0.10</ToxicSensitivity>-->
+          <ToxicResistance>-0.10</ToxicResistance>
+          <ToxicEnvironmentResistance>-0.10</ToxicEnvironmentResistance>
           <ComfyTemperatureMax>1</ComfyTemperatureMax>
           <ComfyTemperatureMin>-1</ComfyTemperatureMin>
         </statOffsets>
@@ -71,7 +73,9 @@
         <statOffsets>
           <IncomingDamageFactor>0.10</IncomingDamageFactor>
           <ImmunityGainSpeed>-0.10</ImmunityGainSpeed>
-          <ToxicSensitivity>0.10</ToxicSensitivity>
+          <!--<ToxicSensitivity>0.10</ToxicSensitivity>-->
+          <ToxicResistance>0.10</ToxicResistance>
+          <ToxicEnvironmentResistance>0.10</ToxicEnvironmentResistance>
           <ComfyTemperatureMax>-1</ComfyTemperatureMax>
           <ComfyTemperatureMin>1</ComfyTemperatureMin>
         </statOffsets>
@@ -155,6 +159,44 @@
     </degreeDatas>
     <conflictingTraits>
       <li>RT_Inquisitive</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Tidy</defName>
+    <commonality>0.75</commonality>
+    <degreeDatas>
+      <li>
+        <label>tidy</label>
+        <description>[PAWN_nameDef] likes to keep [PAWN_possessive] surroundings clean, and is used to being in an organised environment.</description>
+        <statOffsets>
+          <RestRateMultiplier>0.05</RestRateMultiplier>
+          <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+          <CleaningSpeed>0.15</CleaningSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Messy</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>RT_Messy</defName>
+    <commonality>0.75</commonality>
+    <degreeDatas>
+      <li>
+        <label>messy</label>
+        <description>[PAWN_nameDef] often neglect their surroundings, making it difficult for [PAWN_objective] to get work done.</description>
+        <statOffsets>
+          <RestRateMultiplier>-0.05</RestRateMultiplier>
+          <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+          <CleaningSpeed>-0.15</CleaningSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_Tidy</li>
     </conflictingTraits>
   </TraitDef>
 

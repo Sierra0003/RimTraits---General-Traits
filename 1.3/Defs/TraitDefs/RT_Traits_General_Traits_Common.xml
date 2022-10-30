@@ -6,7 +6,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Nearsighted</label>
+        <label>nearsighted</label>
         <description>[PAWN_nameDef] finds it difficult to focus on distant targets, and prefer to get up close and personal.</description>
         <statOffsets>
           <ShootingAccuracyPawn>-2</ShootingAccuracyPawn>
@@ -30,7 +30,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Farsighted</label>
+        <label>farsighted</label>
         <description>[PAWN_nameDef] could spot a target from nearly a hundred meters, yet still somehow walk into walls.</description>
         <statOffsets>
           <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
@@ -54,7 +54,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Athletic</label>
+        <label>athletic</label>
         <description>[PAWN_nameDef]'s movements are smooth and graceful.</description>
         <statOffsets>
           <MeleeDodgeChance>2</MeleeDodgeChance>
@@ -72,7 +72,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Stiff</label>
+        <label>stiff</label>
         <description>[PAWN_nameDef] is so rigid, it's almost like [PAWN_pronoun] is souless.</description>
         <statOffsets>
           <MeleeDodgeChance>-2</MeleeDodgeChance>
@@ -90,7 +90,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Good Hygiene</label>
+        <label>good hygiene</label>
         <description>[PAWN_nameDef] takes care of [PAWN_possessive] personal hygiene.</description>
         <statOffsets>
           <FoodPoisonChance>-0.10</FoodPoisonChance>
@@ -107,7 +107,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Poor Hygiene</label>
+        <label>poor hygiene</label>
         <description>[PAWN_nameDef] doesn't care about [PAWN_possessive] hygiene, and sometimes get sick from bad food.</description>
         <statOffsets>
           <FoodPoisonChance>0.10</FoodPoisonChance>
@@ -124,7 +124,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Persuasive</label>
+        <label>persuasive</label>
         <description>[PAWN_nameDef] often gets [PAWN_possessive] way with things.</description>
         <statOffsets>
           <NegotiationAbility>0.25</NegotiationAbility>
@@ -142,7 +142,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Unconvincing</label>
+        <label>unconvincing</label>
         <description>[PAWN_nameDef] has never won a debate in [PAWN_possessive] life.</description>
         <statOffsets>
           <NegotiationAbility>-0.25</NegotiationAbility>
@@ -160,7 +160,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Resilient</label>
+        <label>resilient</label>
         <description>[PAWN_nameDef] has been in plenty of fights since [PAWN_pronoun] was a kid, and had built up a tolerance to injury and pain as a result.</description>
         <statOffsets>
           <IncomingDamageFactor>-0.10</IncomingDamageFactor>
@@ -179,7 +179,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Fragile</label>
+        <label>fragile</label>
         <description>[PAWN_nameDef] lived a pampered life until now, and is unused to the brutal challenges present out in the Rim.</description>
         <statOffsets>
           <IncomingDamageFactor>0.10</IncomingDamageFactor>
@@ -199,7 +199,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Energetic</label>
+        <label>energetic</label>
         <description>[PAWN_nameDef] always tackle his tasks with great enthusism.</description>
         <statOffsets>
           <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
@@ -217,7 +217,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Sluggish</label>
+        <label>sluggish</label>
         <description>[PAWN_nameDef] is slow. Sooo... slooow...</description>
         <statOffsets>
           <WorkSpeedGlobal>-0.20</WorkSpeedGlobal>
@@ -235,7 +235,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Restful</label>
+        <label>restful</label>
         <description>[PAWN_nameDef] always sleep like a baby.</description>
         <statOffsets>
           <RestRateMultiplier>0.25</RestRateMultiplier>
@@ -252,7 +252,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Restless</label>
+        <label>restless</label>
         <description>[PAWN_nameDef] often has a difficult time falling asleep.</description>
         <statOffsets>
           <RestRateMultiplier>-0.25</RestRateMultiplier>
@@ -269,7 +269,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Efficient</label>
+        <label>efficient</label>
         <description>[PAWN_nameDef] is quite productive when it comes to work.</description>
         <statOffsets>
           <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
@@ -287,7 +287,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Inefficient</label>
+        <label>inefficient</label>
         <description>[PAWN_nameDef] is somewhat of a bottleneck in the colony.</description>
         <statOffsets>
           <WorkSpeedGlobal>-0.20</WorkSpeedGlobal>
@@ -305,7 +305,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Valiant</label>
+        <label>valiant</label>
         <description>[PAWN_nameDef] is brave, [PAWN_pronoun] would stand [PAWN_possessive] where others would scramble and run.</description>
         <statOffsets>
           <MentalBreakThreshold>-0.05</MentalBreakThreshold>
@@ -323,7 +323,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Craven</label>
+        <label>craven</label>
         <description>When there's a fight, [PAWN_nameDef] is the first to run.</description>
         <statOffsets>
           <MentalBreakThreshold>0.05</MentalBreakThreshold>
@@ -341,7 +341,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Rowdy</label>
+        <label>rowdy</label>
         <description>[PAWN_nameDef] likes a good fight, [PAWN_pronoun] will sometimes start a fight just because [PAWN_pronoun] can.</description>
         <statOffsets>
           <MentalBreakThreshold>0.05</MentalBreakThreshold>
@@ -359,7 +359,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Composed</label>
+        <label>composed</label>
         <description>[PAWN_nameDef] is usually calm and collected.</description>
         <statOffsets>
           <MentalBreakThreshold>-0.05</MentalBreakThreshold>
@@ -377,7 +377,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Heat Tolerant</label>
+        <label>heat tolerant</label>
         <description>[PAWN_nameDef] is more comfortable being in hot environment than his peers.</description>
         <statOffsets>
           <ComfyTemperatureMax>3</ComfyTemperatureMax>
@@ -394,7 +394,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Heat Intolerant</label>
+        <label>heat intolerant</label>
         <description>[PAWN_nameDef] does not like being in the heat.</description>
         <statOffsets>
           <ComfyTemperatureMax>-3</ComfyTemperatureMax>
@@ -411,7 +411,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Cold Tolerant</label>
+        <label>cold tolerant</label>
         <description>[PAWN_nameDef] is more comfortable being in cold environment than his peers.</description>
         <statOffsets>
           <ComfyTemperatureMin>-3</ComfyTemperatureMin>
@@ -428,7 +428,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Cold Intolerant</label>
+        <label>cold intolerant</label>
         <description>[PAWN_nameDef] does not like being in the cold.</description>
         <statOffsets>
           <ComfyTemperatureMin>3</ComfyTemperatureMin>
@@ -445,7 +445,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Muscular</label>
+        <label>muscular</label>
         <description>[PAWN_nameDef] has a well built body, people around [PAWN_pronoun] find that rather attractive.</description>
         <statOffsets>
           <CarryingCapacity>5</CarryingCapacity>
@@ -463,7 +463,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Frail</label>
+        <label>frail</label>
         <description>[PAWN_nameDef] looks a bit fragile, but not in a lovable way.</description>
         <statOffsets>
           <CarryingCapacity>-5</CarryingCapacity>
@@ -481,7 +481,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Abstinent</label>
+        <label>abstinent</label>
         <description>[PAWN_nameDef] doesn't eat or drink much.</description>
         <hungerRateFactor>0.75</hungerRateFactor>
       </li>
@@ -496,7 +496,7 @@
     <commonality>1</commonality>
     <degreeDatas>
       <li>
-        <label>Ravenous</label>
+        <label>ravenous</label>
         <description>[PAWN_nameDef] has a bottomless pit for a stomach.</description>
         <hungerRateFactor>1.25</hungerRateFactor>
       </li>
