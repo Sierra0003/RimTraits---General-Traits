@@ -50,8 +50,8 @@
           <IncomingDamageFactor>-0.10</IncomingDamageFactor>
           <ImmunityGainSpeed>0.10</ImmunityGainSpeed>
           <!--<ToxicSensitivity>-0.10</ToxicSensitivity>-->
-          <ToxicResistance>-0.10</ToxicResistance>
-          <ToxicEnvironmentResistance>-0.10</ToxicEnvironmentResistance>
+          <ToxicResistance>0.10</ToxicResistance>
+          <ToxicEnvironmentResistance>0.10</ToxicEnvironmentResistance>
           <ComfyTemperatureMax>1</ComfyTemperatureMax>
           <ComfyTemperatureMin>-1</ComfyTemperatureMin>
         </statOffsets>
@@ -74,8 +74,8 @@
           <IncomingDamageFactor>0.10</IncomingDamageFactor>
           <ImmunityGainSpeed>-0.10</ImmunityGainSpeed>
           <!--<ToxicSensitivity>0.10</ToxicSensitivity>-->
-          <ToxicResistance>0.10</ToxicResistance>
-          <ToxicEnvironmentResistance>0.10</ToxicEnvironmentResistance>
+          <ToxicResistance>-0.10</ToxicResistance>
+          <ToxicEnvironmentResistance>-0.10</ToxicEnvironmentResistance>
           <ComfyTemperatureMax>-1</ComfyTemperatureMax>
           <ComfyTemperatureMin>1</ComfyTemperatureMin>
         </statOffsets>
