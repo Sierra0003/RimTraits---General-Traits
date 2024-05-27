@@ -306,7 +306,7 @@
     <degreeDatas>
       <li>
         <label>valiant</label>
-        <description>[PAWN_nameDef] is brave, [PAWN_pronoun] would stand [PAWN_possessive] where others would scramble and run.</description>
+        <description>[PAWN_nameDef] is brave, [PAWN_pronoun] would stand [PAWN_possessive] ground where others would scramble and run.</description>
         <statOffsets>
           <MentalBreakThreshold>-0.05</MentalBreakThreshold>
           <PainShockThreshold>0.05</PainShockThreshold>
