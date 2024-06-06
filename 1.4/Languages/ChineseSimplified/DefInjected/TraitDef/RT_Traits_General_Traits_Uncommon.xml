@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Coordinated.degreeDatas.0.label>协调性好</RT_Coordinated.degreeDatas.0.label>
+  <RT_Coordinated.degreeDatas.0.description>[PAWN_nameDef] 的反应时间很好，并且发现体力活动比 [PAWN_possessive] 的同龄人压力更小。</RT_Coordinated.degreeDatas.0.description>
+
+  <RT_Clumsy.degreeDatas.0.label>协调性差</RT_Clumsy.degreeDatas.0.label>
+  <RT_Clumsy.degreeDatas.0.description>[PAWN_nameDef] 很容易分心，并且在进行体育活动时经常搞砸。</RT_Clumsy.degreeDatas.0.description>
+
+  <RT_Hardy.degreeDatas.0.label>非常强壮</RT_Hardy.degreeDatas.0.label>
+  <RT_Hardy.degreeDatas.0.description>[PAWN_nameDef] 是人们所说的“重量级”</RT_Hardy.degreeDatas.0.description>
+
+  <RT_Feeble.degreeDatas.0.label>非常脆弱</RT_Feeble.degreeDatas.0.label>
+  <RT_Feeble.degreeDatas.0.description>[PAWN_nameDef] 非常脆弱，不需要太多时间就能使 [PAWN_objective] 失效。</RT_Feeble.degreeDatas.0.description>
+
+  <RT_EasilyAmused.degreeDatas.0.label>乐观主义</RT_EasilyAmused.degreeDatas.0.label>
+  <RT_EasilyAmused.degreeDatas.0.description>无论是纯粹的乐观态度还是人格力量，[PAWN_nameDef] 总能看到生活光明的一面。</RT_EasilyAmused.degreeDatas.0.description>
+
+  <RT_ConstantlyBemused.degreeDatas.0.label>悲观主义</RT_ConstantlyBemused.degreeDatas.0.label>
+  <RT_ConstantlyBemused.degreeDatas.0.description>生活对 [PAWN_nameDef] 来说是一个无休止、无聊的笑话，[PAWN_pronoun] 无法摆脱。</RT_ConstantlyBemused.degreeDatas.0.description>
+
+  <RT_Inquisitive.degreeDatas.0.label>充满好奇心</RT_Inquisitive.degreeDatas.0.label>
+  <RT_Inquisitive.degreeDatas.0.description>[PAWN_nameDef]有兴趣了解世界的运作方式，并且能够在日常生活中应用[PAWN_possessive]知识。</RT_Inquisitive.degreeDatas.0.description>
+
+  <RT_Ignorant.degreeDatas.0.label>缺乏好奇心</RT_Ignorant.degreeDatas.0.label>
+  <RT_Ignorant.degreeDatas.0.description>[PAWN_nameDef] 的教育差距和普遍缺乏好奇心使得 [PAWN_objective] 的生活经常充满压力。</RT_Ignorant.degreeDatas.0.description>
+
+  <RT_Tidy.degreeDatas.0.label>有条不紊</RT_Tidy.degreeDatas.0.label>
+  <RT_Tidy.degreeDatas.0.description>[PAWN_nameDef]喜欢保持[PAWN_possessive]周围环境清洁，并且习惯处于有组织的环境中。</RT_Tidy.degreeDatas.0.description>
+
+  <RT_Messy.degreeDatas.0.label>乱七八糟</RT_Messy.degreeDatas.0.label>
+  <RT_Messy.degreeDatas.0.description>[PAWN_nameDef]经常忽视周围的环境，导致[PAWN_objective]很难完成工作。</RT_Messy.degreeDatas.0.description>
+
+</LanguageData>

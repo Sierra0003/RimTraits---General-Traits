@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Nearsighted.degreeDatas.0.label>近视眼</RT_Nearsighted.degreeDatas.0.label>
+  <RT_Nearsighted.degreeDatas.0.description>[PAWN_nameDef] 发现很难聚焦于远处的目标，而更喜欢近距离观察。</RT_Nearsighted.degreeDatas.0.description>
+
+  <RT_Farsighted.degreeDatas.0.label>远视眼</RT_Farsighted.degreeDatas.0.label>
+  <RT_Farsighted.degreeDatas.0.description>[PAWN_nameDef] 可以在近百米处发现目标，但仍然会以某种方式撞到墙壁。</RT_Farsighted.degreeDatas.0.description>
+
+  <RT_Athletic.degreeDatas.0.label>善于运动</RT_Athletic.degreeDatas.0.label>
+  <RT_Athletic.degreeDatas.0.description>[PAWN_nameDef] 的动作流畅且优美。</RT_Athletic.degreeDatas.0.description>
+
+  <RT_Stiff.degreeDatas.0.label>不善运动</RT_Stiff.degreeDatas.0.label>
+  <RT_Stiff.degreeDatas.0.description>[PAWN_nameDef] 是如此僵化，几乎就像 [PAWN_pronoun] 没有灵魂。</RT_Stiff.degreeDatas.0.description>
+
+  <RT_GoodHygiene.degreeDatas.0.label>讲卫生</RT_GoodHygiene.degreeDatas.0.label>
+  <RT_GoodHygiene.degreeDatas.0.description>[PAWN_nameDef] 负责 [PAWN_possessive] 个人卫生。</RT_GoodHygiene.degreeDatas.0.description>
+
+  <RT_PoorHygiene.degreeDatas.0.label>不讲卫生</RT_PoorHygiene.degreeDatas.0.label>
+  <RT_PoorHygiene.degreeDatas.0.description>[PAWN_nameDef] 不关心 [PAWN_possessive] 卫生，有时还会因为食物不好而生病。</RT_PoorHygiene.degreeDatas.0.description>
+
+  <RT_Persuasive.degreeDatas.0.label>能说会道</RT_Persuasive.degreeDatas.0.label>
+  <RT_Persuasive.degreeDatas.0.description>[PAWN_nameDef] 经常以 [PAWN_possessive] 的方式处理事情。</RT_Persuasive.degreeDatas.0.description>
+
+  <RT_Unconvincing.degreeDatas.0.label>嘴笨</RT_Unconvincing.degreeDatas.0.label>
+  <RT_Unconvincing.degreeDatas.0.description>[PAWN_nameDef] 在 [PAWN_possessive] 的生活中从未赢得过辩论。</RT_Unconvincing.degreeDatas.0.description>
+
+  <RT_Resilient.degreeDatas.0.label>耐受力强</RT_Resilient.degreeDatas.0.label>
+  <RT_Resilient.degreeDatas.0.description>[PAWN_nameDef] 从 [PAWN_pronoun] 小时候起就经常打架，因此培养了对伤害和疼痛的耐受力。</RT_Resilient.degreeDatas.0.description>
+
+  <RT_Fragile.degreeDatas.0.label>耐受力弱</RT_Fragile.degreeDatas.0.label>
+  <RT_Fragile.degreeDatas.0.description>[PAWN_nameDef] 迄今为止一直过着养尊处优的生活，不习惯Rim中的残酷挑战。</RT_Fragile.degreeDatas.0.description>
+
+  <RT_Energetic.degreeDatas.0.label>精力充沛</RT_Energetic.degreeDatas.0.label>
+  <RT_Energetic.degreeDatas.0.description>[PAWN_nameDef] 总是以极大的热情完成他的任务。</RT_Energetic.degreeDatas.0.description>
+
+  <RT_Sluggish.degreeDatas.0.label>眼神呆滞</RT_Sluggish.degreeDatas.0.label>
+  <RT_Sluggish.degreeDatas.0.description>[PAWN_nameDef] 很慢。 非……常……慢……</RT_Sluggish.degreeDatas.0.description>
+
+  <RT_Restful.degreeDatas.0.label>婴儿般的睡眠</RT_Restful.degreeDatas.0.label>
+  <RT_Restful.degreeDatas.0.description>[PAWN_nameDef] 总是睡得像个婴儿。</RT_Restful.degreeDatas.0.description>
+
+  <RT_Restless.degreeDatas.0.label>失眠综合症</RT_Restless.degreeDatas.0.label>
+  <RT_Restless.degreeDatas.0.description>[PAWN_nameDef] 经常难以入睡。</RT_Restless.degreeDatas.0.description>
+
+  <RT_Efficient.degreeDatas.0.label>注重效率</RT_Efficient.degreeDatas.0.label>
+  <RT_Efficient.degreeDatas.0.description>[PAWN_nameDef] 在工作方面非常高效。</RT_Efficient.degreeDatas.0.description>
+
+  <RT_Inefficient.degreeDatas.0.label>注重摸鱼</RT_Inefficient.degreeDatas.0.label>
+  <RT_Inefficient.degreeDatas.0.description>[PAWN_nameDef] 在某种程度上是殖民地的瓶颈。</RT_Inefficient.degreeDatas.0.description>
+
+  <RT_Valiant.degreeDatas.0.label>英勇</RT_Valiant.degreeDatas.0.label>
+  <RT_Valiant.degreeDatas.0.description>[PAWN_nameDef] 很勇敢，[PAWN_pronoun] 会站在别人会争先恐后逃跑的地方。</RT_Valiant.degreeDatas.0.description>
+
+  <RT_Craven.degreeDatas.0.label>懦夫</RT_Craven.degreeDatas.0.label>
+  <RT_Craven.degreeDatas.0.description>当发生战斗时，[PAWN_nameDef] 第一个逃跑。</RT_Craven.degreeDatas.0.description>
+
+  <RT_Rowdy.degreeDatas.0.label>莽夫</RT_Rowdy.degreeDatas.0.label>
+  <RT_Rowdy.degreeDatas.0.description>[PAWN_nameDef] 喜欢一场精彩的战斗，[PAWN_pronoun] 有时会因为 [PAWN_pronoun] 可以而开始一场战斗。</RT_Rowdy.degreeDatas.0.description>
+
+  <RT_Composed.degreeDatas.0.label>沉着冷静</RT_Composed.degreeDatas.0.label>
+  <RT_Composed.degreeDatas.0.description>[PAWN_nameDef] 通常很冷静。</RT_Composed.degreeDatas.0.description>
+
+  <RT_HeatTolerant.degreeDatas.0.label>耐高温</RT_HeatTolerant.degreeDatas.0.label>
+  <RT_HeatTolerant.degreeDatas.0.description>[PAWN_nameDef] 比同龄人更适应炎热的环境。</RT_HeatTolerant.degreeDatas.0.description>
+
+  <RT_HeatIntolerant.degreeDatas.0.label>不耐高温</RT_HeatIntolerant.degreeDatas.0.label>
+  <RT_HeatIntolerant.degreeDatas.0.description>[PAWN_nameDef] 不喜欢处于高温状态。</RT_HeatIntolerant.degreeDatas.0.description>
+
+  <RT_ColdTolerant.degreeDatas.0.label>耐寒</RT_ColdTolerant.degreeDatas.0.label>
+  <RT_ColdTolerant.degreeDatas.0.description>[PAWN_nameDef] 比同龄人更适应寒冷的环境。</RT_ColdTolerant.degreeDatas.0.description>
+
+  <RT_ColdIntolerant.degreeDatas.0.label>不耐寒</RT_ColdIntolerant.degreeDatas.0.label>
+  <RT_ColdIntolerant.degreeDatas.0.description>[PAWN_nameDef] 不喜欢寒冷。</RT_ColdIntolerant.degreeDatas.0.description>
+
+  <RT_Muscular.degreeDatas.0.label>健美</RT_Muscular.degreeDatas.0.label>
+  <RT_Muscular.degreeDatas.0.description>[PAWN_nameDef] 拥有健美的身材，[PAWN_pronoun] 周围的人觉得这相当有吸引力。</RT_Muscular.degreeDatas.0.description>
+
+  <RT_Frail.degreeDatas.0.label>孱弱</RT_Frail.degreeDatas.0.label>
+  <RT_Frail.degreeDatas.0.description>[PAWN_nameDef] 看起来有点脆弱，但并不可爱。</RT_Frail.degreeDatas.0.description>
+
+  <RT_Abstinent.degreeDatas.0.label>小胃口</RT_Abstinent.degreeDatas.0.label>
+  <RT_Abstinent.degreeDatas.0.description>[PAWN_nameDef] 吃得喝得都不多。</RT_Abstinent.degreeDatas.0.description>
+
+  <RT_Ravenous.degreeDatas.0.label>大胃王</RT_Ravenous.degreeDatas.0.label>
+  <RT_Ravenous.degreeDatas.0.description>[PAWN_nameDef]的胃有一个无底洞。</RT_Ravenous.degreeDatas.0.description>
+
+
+</LanguageData>

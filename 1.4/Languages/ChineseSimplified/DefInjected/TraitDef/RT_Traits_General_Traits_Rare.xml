@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Gifted.degreeDatas.0.label>天赋异禀</RT_Gifted.degreeDatas.0.label>
+  <RT_Gifted.degreeDatas.0.description>[PAWN_nameDef] 天生有才华，[PAWN_pronoun] 比其他人先发制人。</RT_Gifted.degreeDatas.0.description>
+
+  <RT_Incompetent.degreeDatas.0.label>天生愚钝</RT_Incompetent.degreeDatas.0.label>
+  <RT_Incompetent.degreeDatas.0.description>[PAWN_nameDef] 是个让人又爱又恨的人。</RT_Incompetent.degreeDatas.0.description>
+
+  <RT_PatientCook.degreeDatas.0.label>烹饪讲究</RT_PatientCook.degreeDatas.0.label>
+  <RT_PatientCook.degreeDatas.0.description>[PAWN_nameDef] 在准备食物时非常小心，[PAWN_pronoun] 绝不会为了早点吃饭而跳过任何一步。</RT_PatientCook.degreeDatas.0.description>
+
+  <RT_ImpatientCook.degreeDatas.0.label>烹饪敷衍</RT_ImpatientCook.degreeDatas.0.label>
+  <RT_ImpatientCook.degreeDatas.0.description>只要 [PAWN_pronoun] 能够在创纪录的时间内将食物送入 [PAWN_possessive] 嘴里，[PAWN_nameDef] 就不在乎遵循食谱。</RT_ImpatientCook.degreeDatas.0.description>
+
+  <RT_Healthy.degreeDatas.0.label>健康</RT_Healthy.degreeDatas.0.label>
+  <RT_Healthy.degreeDatas.0.description>[PAWN_nameDef] 过着健康的生活方式，醒来时感觉精力充沛、开朗。</RT_Healthy.degreeDatas.0.description>
+
+  <RT_ChronicallyIll.degreeDatas.0.label>体弱多病</RT_ChronicallyIll.degreeDatas.0.label>
+  <RT_ChronicallyIll.degreeDatas.0.description>[PAWN_nameDef] 经常生病，并且似乎比普通人需要更多的努力才能起床。</RT_ChronicallyIll.degreeDatas.0.description>
+
+  <RT_TemperatureTolerant.degreeDatas.0.label>温度不敏感</RT_TemperatureTolerant.degreeDatas.0.label>
+  <RT_TemperatureTolerant.degreeDatas.0.description>[PAWN_nameDef] 在四季中都很舒适。</RT_TemperatureTolerant.degreeDatas.0.description>
+
+  <RT_TemperatureIntolerant.degreeDatas.0.label>温度敏感</RT_TemperatureIntolerant.degreeDatas.0.label>
+  <RT_TemperatureIntolerant.degreeDatas.0.description>[PAWN_nameDef] 认为夏天太热，冬天太冷。</RT_TemperatureIntolerant.degreeDatas.0.description>
+
+</LanguageData>
